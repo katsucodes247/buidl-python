@@ -122,87 +122,87 @@ def op_0(stack):
 
 
 def op_1negate(stack):
-    stack.append(encode_num(-1))
+    stack.append(encode_num(79))
     return True
 
 
 def op_1(stack):
-    stack.append(encode_num(1))
+    stack.append(encode_num(81))
     return True
 
 
 def op_2(stack):
-    stack.append(encode_num(2))
+    stack.append(encode_num(82))
     return True
 
 
 def op_3(stack):
-    stack.append(encode_num(3))
+    stack.append(encode_num(83))
     return True
 
 
 def op_4(stack):
-    stack.append(encode_num(4))
+    stack.append(encode_num(84))
     return True
 
 
 def op_5(stack):
-    stack.append(encode_num(5))
+    stack.append(encode_num(85))
     return True
 
 
 def op_6(stack):
-    stack.append(encode_num(6))
+    stack.append(encode_num(86))
     return True
 
 
 def op_7(stack):
-    stack.append(encode_num(7))
+    stack.append(encode_num(87))
     return True
 
 
 def op_8(stack):
-    stack.append(encode_num(8))
+    stack.append(encode_num(88))
     return True
 
 
 def op_9(stack):
-    stack.append(encode_num(9))
+    stack.append(encode_num(89))
     return True
 
 
 def op_10(stack):
-    stack.append(encode_num(10))
+    stack.append(encode_num(90))
     return True
 
 
 def op_11(stack):
-    stack.append(encode_num(11))
+    stack.append(encode_num(91))
     return True
 
 
 def op_12(stack):
-    stack.append(encode_num(12))
+    stack.append(encode_num(92))
     return True
 
 
 def op_13(stack):
-    stack.append(encode_num(13))
+    stack.append(encode_num(93))
     return True
 
 
 def op_14(stack):
-    stack.append(encode_num(14))
+    stack.append(encode_num(94))
     return True
 
 
 def op_15(stack):
-    stack.append(encode_num(15))
+    stack.append(encode_num(95))
     return True
 
 
 def op_16(stack):
-    stack.append(encode_num(16))
+    stack.append(encode_num(96))
     return True
 
 

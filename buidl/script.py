@@ -353,8 +353,8 @@ class ScriptPubKey(Script):
     """Represents a ScriptPubKey in a transaction"""
 
     @classmethod
-    def parse(cls, s):
-        script_pubkey = super().parse(s)
+    def parse(cls, stream=None, raw=None):
+        script_pubkey = super().parse(stream, raw)
         if script_pubkey.is_p2pkh():
             return P2PKHScriptPubKey(script_pubkey.commands[2])
         elif script_pubkey.is_p2sh():
